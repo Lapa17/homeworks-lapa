@@ -4,7 +4,7 @@ import {AffairType, FilterType} from './HW2'
 
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
-    setFilter: (affairs: Array<AffairType>, filter:FilterType) => void
+    setFilter: (filter: FilterType) => void
     deleteAffairCallback: (_id: number) => void
 }
 
@@ -17,20 +17,29 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
-    const setAll = () => {props.setFilter(props.data,'all')} // need to fix
-    const setHigh = () => {props.setFilter(props.data,'high')}
-    const setMiddle = () => {props.setFilter(props.data,'middle')}
-    const setLow = () => {props.setFilter(props.data,'low')}
+    const setAll = () => {
+        props.setFilter('all')
+    } // need to fix
+    const setHigh = () => {
+        props.setFilter('high')
+    }
+    const setMiddle = () => {
+        props.setFilter('middle')
+    }
+    const setLow = () => {
+        props.setFilter('low')
+    }
 
     return (
         <div>
 
             {mappedAffairs}
-
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+            <div>
+                <button onClick={setAll}>All</button>
+                <button onClick={setHigh}>High</button>
+                <button onClick={setMiddle}>Middle</button>
+                <button onClick={setLow}>Low</button>
+            </div>
         </div>
     )
 }
