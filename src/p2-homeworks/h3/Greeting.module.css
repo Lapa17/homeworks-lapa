@@ -1,7 +1,63 @@
-.someClass {
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    justify-content: start;
+    width: 400px;
+    padding: 10px;
+}
 
+.wrapperWithEror{
+    display: grid;
+    grid-template-columns: 5fr 3fr 1fr;
+    width: 400px;
+    padding: 10px;
+}
+
+.normal {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
 }
 
 .error {
     border: 1px solid red;
+    padding: 5px;
+    font-size: 16px;
+}
+.errorHide {
+    display: none;
+}
+.errorMessage {
+    display: inline-block;
+    margin-right:5px;
+    background: #ff9797;
+    padding: 5px;
+    font-size: 15px;
+    color: #B00020;
+    text-align: center;
+}
+
+.addBtn{
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+    background: #d7d7d7;
+    box-shadow: 2px 2px 3px 0px black;
+    transition-duration: 0.2s;
+}
+
+.addBtn:hover{
+    background: #cbc9c9;
+}
+
+.addBtn:active{
+    box-shadow: none;
+}
+
+.counter{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 5px;
 }
