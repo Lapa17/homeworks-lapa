@@ -1,4 +1,5 @@
 import React from 'react'
+import SuperInputText from '../h4/common/c1-SuperInputText/SuperInputText'
 import s from './Greeting.module.css'
 
 type GreetingPropsType = {
@@ -20,6 +21,7 @@ const Greeting: React.FC<GreetingPropsType> = (
     return (
         <div className={wrapperClass}>
             <input value={name} onChange={setNameCallback} className={inputClass}/>
+            <SuperInputText />
             <span className={errorClass}>{error}</span>
             <button onClick={addUser} className={s.addBtn}>Add</button>
             <span className={s.counter}>Total users: {totalUsers}</span>

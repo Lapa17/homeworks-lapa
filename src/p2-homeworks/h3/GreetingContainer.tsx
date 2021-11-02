@@ -19,7 +19,8 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     let newEror = error
 
     const setNameCallback = (e: any) => { // need to fix any
-        setName(e.currentTarget.value) // need to fix
+        setName(e.currentTarget.value)
+        setError('') // need to fix
     }
     const addUser = () => {
         if (name){

@@ -1,6 +1,4 @@
-.superInput {
 
-}
 
 .errorInput {
     border: 3px solid lime;
@@ -9,4 +7,9 @@
 
 .error {
     color: red;
+}
+
+.superInput {
+    background: rgb(170, 169, 169);
+    
 }
