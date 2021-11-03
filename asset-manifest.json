@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homeworks-lapa/static/css/main.1fb24b61.chunk.css",
+    "main.css": "/homeworks-lapa/static/css/main.2ae7f5e6.chunk.css",
     "main.js": "/homeworks-lapa/static/js/main.907aa5d5.chunk.js",
     "main.js.map": "/homeworks-lapa/static/js/main.907aa5d5.chunk.js.map",
     "runtime-main.js": "/homeworks-lapa/static/js/runtime-main.bfa4ca0d.js",
@@ -8,13 +8,13 @@
     "static/js/2.e4e1091a.chunk.js": "/homeworks-lapa/static/js/2.e4e1091a.chunk.js",
     "static/js/2.e4e1091a.chunk.js.map": "/homeworks-lapa/static/js/2.e4e1091a.chunk.js.map",
     "index.html": "/homeworks-lapa/index.html",
-    "static/css/main.1fb24b61.chunk.css.map": "/homeworks-lapa/static/css/main.1fb24b61.chunk.css.map",
+    "static/css/main.2ae7f5e6.chunk.css.map": "/homeworks-lapa/static/css/main.2ae7f5e6.chunk.css.map",
     "static/js/2.e4e1091a.chunk.js.LICENSE.txt": "/homeworks-lapa/static/js/2.e4e1091a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bfa4ca0d.js",
     "static/js/2.e4e1091a.chunk.js",
-    "static/css/main.1fb24b61.chunk.css",
+    "static/css/main.2ae7f5e6.chunk.css",
     "static/js/main.907aa5d5.chunk.js"
   ]
 }
