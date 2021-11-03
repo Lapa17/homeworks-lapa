@@ -4,8 +4,9 @@
 
 .column {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 10px;
 }
 
 .testSpanError {
