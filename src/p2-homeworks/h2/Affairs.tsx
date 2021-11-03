@@ -1,6 +1,8 @@
 import React from 'react'
 import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import s from "./Affairs.module.css"
 
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
@@ -9,6 +11,7 @@ type AffairsPropsType = { // need to fix any
 }
 
 function Affairs(props: AffairsPropsType) {
+
     const mappedAffairs = props.data.map((a: AffairType) => (
         <Affair // should work
             key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
@@ -31,14 +34,18 @@ function Affairs(props: AffairsPropsType) {
     }
 
     return (
-        <div>
+        <div className={s.wrapper}>
 
             {mappedAffairs}
             <div>
-                <button onClick={setAll}>All</button>
-                <button onClick={setHigh}>High</button>
-                <button onClick={setMiddle}>Middle</button>
-                <button onClick={setLow}>Low</button>
+                <SuperButton onClick={setAll}>All</SuperButton>
+                <SuperButton onClick={setHigh}>High</SuperButton>
+                <SuperButton onClick={setMiddle}>Middle</SuperButton>
+                <SuperButton onClick={setLow}>Low</SuperButton>
+                {/*<button onClick={setAll}>All</button>*/}
+                {/*<button onClick={setHigh}>High</button>*/}
+                {/*<button onClick={setMiddle}>Middle</button>*/}
+                {/*<button onClick={setLow}>Low</button>*/}
             </div>
         </div>
     )

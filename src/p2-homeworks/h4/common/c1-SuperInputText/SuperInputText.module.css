@@ -1,15 +1,23 @@
 
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border: 2px solid #ef5350;
+    border-radius: 3px;
+    padding:10px;
+    box-shadow: 0 0 11px 3px rgb(0 0 0 / 6%);
+    font-size: 18px;
 }
 
 .error {
-    color: red;
+    color: #f44336;
+    text-align: center;
+    background: #ffcdd2;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .superInput {
-    background: rgb(170, 169, 169);
-    
+    border:1px solid #d2d2d2;
+    background: white;
+    font-family: 'Roboto', sans-serif;
 }
