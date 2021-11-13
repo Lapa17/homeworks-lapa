@@ -1,0 +1,34 @@
+.menuBtn {
+    width: 20px;
+    height: 20px;
+    background-color: #c284ff;
+    margin: 10px;
+}
+
+
+.wrapper {
+    display: grid;
+    width: 280px;
+    transition-duration: 1s;
+    transform: translate(-240px);
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.wrapper:hover{
+    transition-duration: 1s;
+    transform: translate(0);
+}
+.link {
+    text-decoration: none;
+    margin: 5px;
+    color:  #646464;;
+}
+.link:hover{
+    color: #894ec4;
+}
+.active {
+    color:  #c284ff; 
+    text-decoration: none;
+}
