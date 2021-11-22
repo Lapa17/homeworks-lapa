@@ -1,0 +1,38 @@
+img{
+    margin-top: 0;
+    margin-left: 50px;
+    width: auto;
+    height: 55vh;
+    transform: translateY(7%);
+}
+
+.mainWrapper {
+    display: flex;
+    background: #2C1338;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.wrapper{
+    justify-content: center;
+    display: flex;
+    margin-left: 32px;
+    margin-top: 140px;
+}
+
+.item{
+    max-width: 320px;
+    font-size: 2em;
+}
+
+h1{
+    color: #FFF3ED;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 32px;
+}
+
+p{
+    color: #FCE5D8;
+}
