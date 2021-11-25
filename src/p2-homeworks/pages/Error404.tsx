@@ -1,5 +1,5 @@
 import React from 'react'
-import s from '../../styles/Page404.module.css'
+import s from '../../p2-homeworks/styles/Page404.module.css'
 
 function Error404() {
     return (
