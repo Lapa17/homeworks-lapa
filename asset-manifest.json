@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/homeworks-lapa/static/css/main.ed252024.chunk.css",
-    "main.js": "/homeworks-lapa/static/js/main.14998f54.chunk.js",
-    "main.js.map": "/homeworks-lapa/static/js/main.14998f54.chunk.js.map",
+    "main.css": "/homeworks-lapa/static/css/main.1b995b80.chunk.css",
+    "main.js": "/homeworks-lapa/static/js/main.ab0542c8.chunk.js",
+    "main.js.map": "/homeworks-lapa/static/js/main.ab0542c8.chunk.js.map",
     "runtime-main.js": "/homeworks-lapa/static/js/runtime-main.bfa4ca0d.js",
     "runtime-main.js.map": "/homeworks-lapa/static/js/runtime-main.bfa4ca0d.js.map",
-    "static/js/2.3ec929b0.chunk.js": "/homeworks-lapa/static/js/2.3ec929b0.chunk.js",
-    "static/js/2.3ec929b0.chunk.js.map": "/homeworks-lapa/static/js/2.3ec929b0.chunk.js.map",
+    "static/js/2.429716d0.chunk.js": "/homeworks-lapa/static/js/2.429716d0.chunk.js",
+    "static/js/2.429716d0.chunk.js.map": "/homeworks-lapa/static/js/2.429716d0.chunk.js.map",
     "index.html": "/homeworks-lapa/index.html",
-    "static/css/main.ed252024.chunk.css.map": "/homeworks-lapa/static/css/main.ed252024.chunk.css.map",
-    "static/js/2.3ec929b0.chunk.js.LICENSE.txt": "/homeworks-lapa/static/js/2.3ec929b0.chunk.js.LICENSE.txt"
+    "static/css/main.1b995b80.chunk.css.map": "/homeworks-lapa/static/css/main.1b995b80.chunk.css.map",
+    "static/js/2.429716d0.chunk.js.LICENSE.txt": "/homeworks-lapa/static/js/2.429716d0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bfa4ca0d.js",
-    "static/js/2.3ec929b0.chunk.js",
-    "static/css/main.ed252024.chunk.css",
-    "static/js/main.14998f54.chunk.js"
+    "static/js/2.429716d0.chunk.js",
+    "static/css/main.1b995b80.chunk.css",
+    "static/js/main.ab0542c8.chunk.js"
   ]
 }
