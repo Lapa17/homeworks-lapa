@@ -18,3 +18,7 @@
 .itemWrapper {
     margin-bottom: 10px;
 }
+
+.active{
+    background: #c284ff;
+}

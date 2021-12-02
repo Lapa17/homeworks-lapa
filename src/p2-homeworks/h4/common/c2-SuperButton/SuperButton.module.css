@@ -10,7 +10,9 @@
     border: 1px solid white;
     background: #c284ff;
 }
-
+.default:active{
+    background: #c284ff;
+}
 .red {
     background: red;
 }
