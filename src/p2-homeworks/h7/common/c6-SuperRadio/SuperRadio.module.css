@@ -1,0 +1,18 @@
+.radio{
+    appearance: none;
+    border: 2px solid #c284ff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+.radio:checked{
+    background: #c284ff;
+    transition-duration: 1s;
+
+}
+
+.radio:hover{
+    border: 3px solid #c284ff;
+}
