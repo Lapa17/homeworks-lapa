@@ -9,6 +9,7 @@
 .default:hover{
     border: 1px solid white;
     background: #c284ff;
+    color: white;
 }
 .default:active{
     background: #c284ff;
