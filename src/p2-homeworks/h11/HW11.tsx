@@ -22,7 +22,7 @@ function HW11() {
 
             <div>
                 <span>{value1}</span>
-                <SuperDoubleRange min={value1} max={value2}
+                <SuperDoubleRange min={value1} max={value2} setValue={setValue2} setValue2={setValue1}
                     // сделать так чтоб value1 и value2 изменялось
                 />
                 <span>{value2}</span>
