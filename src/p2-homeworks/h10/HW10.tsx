@@ -2,10 +2,11 @@ import React from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
 import {selectLoading} from "./bll/selector";
-import {Dispatch} from "redux";
+
 import {loadingAC, LoadingActionType} from "./bll/loadingReducer";
 import { Puff } from 'react-loading-icons'
 import s from './HW10.module.css'
+import { Dispatch } from 'redux';
 
 function HW10() {
     // useSelector, useDispatch
