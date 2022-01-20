@@ -26,7 +26,7 @@ img{
     font-size: 2em;
 }
 
-h1{
+h1.errorHeader{
     color: #FFF3ED;
     font-weight: 400;
     line-height: 1.1;
